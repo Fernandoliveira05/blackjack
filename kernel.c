@@ -1,8 +1,3 @@
-/*
-* kernel.c
-* Microkernel Blackjack com Adversário
-*/
-
 typedef struct {
     char *nome;
     int valor;
