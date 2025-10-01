@@ -121,7 +121,6 @@ Na tela inicial são mostradas as regras e controles:
 ---
 
 ## Fluxo do Jogo
-
 ```mermaid
 flowchart TD
     A[Bootloader (kernel.asm)]
@@ -143,6 +142,7 @@ flowchart TD
     G --> H
     H --> D
 ```
+
 ---
 
 
