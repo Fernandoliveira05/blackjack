@@ -5,6 +5,16 @@ O objetivo é demonstrar conceitos de **sistemas operacionais**, **desenvolvimen
 
 ---
 
+## Assista ao vídeo:
+- A imagem abaixo te redireciona para o vídeo explicativo do projeto:
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=FdRqLgt-Rgo">
+    <img src="https://sharkpokerreviews.com.br/blog/wp-content/uploads/2020/07/como-jogar-blackjack-21.jpg" alt="Vídeo do Projeto ULA Completa">
+  </a>
+</div>
+
+---
+
 ## Sobre o Projeto
 
 O FerBet é um mini-jogo de Blackjack que roda diretamente sobre o processador, sem um sistema operacional intermediário.  
