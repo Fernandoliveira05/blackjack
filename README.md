@@ -27,6 +27,24 @@ O jogador pode:
 
 ---
 
+## Bootloader, o que é?
+
+Um **bootloader** é um programa que é executado sempre que um dispositivo é ligado ou reiniciado.  
+Ele é o **intermediário entre o hardware e o sistema operacional**, garantindo que o dispositivo inicie corretamente.  
+
+De forma simples, o bootloader prepara o terreno para que o sistema operacional seja carregado e executado.  
+No nosso caso, o bootloader:
+
+- Configura o **modo protegido de 32 bits**  
+- Define o **stack** inicial  
+- Carrega o **microkernel** para a memória  
+- Transfere o controle para a função principal (`kmain`) do kernel  
+
+---
+
+
+---
+
 ## Estrutura do Projeto
 
 projeto-blackjack
@@ -102,5 +120,19 @@ Na tela inicial são mostradas as regras e controles:
 
 ---
 
+
+## Autoria
+
+Projeto desenvolvido como estudo de baixo nível e sistemas operacionais:
+
+Estrutura de boot com Assembly
+
+Kernel mínimo em C
+
+Execução direta no QEMU
+
+Fundamentos de microkernel
+
+---
 
 
