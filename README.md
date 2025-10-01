@@ -119,20 +119,29 @@ Na tela inicial são mostradas as regras e controles:
 - Vencer o adversário, que também possui um valor oculto  
 
 ---
+
 ## Fluxo do Jogo
 
 ```mermaid
 flowchart TD
-    A[Bootloader (kernel.asm)] --> B[Configura stack e entra em modo protegido]
-    B --> C[kmain (kernel.c)]
-    C --> D[Exibe tela inicial]
-    D --> E[Jogo Blackjack]
-    E -->|H = Hit| F[Adiciona carta]
-    E -->|S = Stand| G[Finaliza jogo]
-    F --> E
-    G --> H[Mostra resultado final]
-    H --> D
+    A[Bootloader (kernel.asm)]
+    B[Configura stack e entra em modo protegido]
+    C[kmain (kernel.c)]
+    D[Exibe tela inicial]
+    E[Jogo Blackjack]
+    F[Adiciona carta]
+    G[Finaliza jogo]
+    H[Mostra resultado final]
 
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E -->|H = Hit| F
+    E -->|S = Stand| G
+    F --> E
+    G --> H
+    H --> D
 ```
 ---
 
