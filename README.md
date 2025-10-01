@@ -154,7 +154,14 @@ flowchart TD
 
 
 ---
+### Qual a motivação para fazer um BlackJack?
+O Blackjack, também conhecido como 21, é um dos jogos de cartas mais populares do mundo. Sua origem remonta ao século XVII, com registros do jogo "Vingt-et-Un" (vinte e um) na França. Ao longo do tempo, ele se espalhou pela Europa e chegou aos cassinos norte-americanos, onde ganhou fama a partir do século XX, principalmente em Las Vegas.
 
+Hoje, o Blackjack é um dos jogos de mesa mais jogados em cassinos físicos e online, associado tanto ao entretenimento quanto à indústria bilionária das apostas. Porém, junto com essa popularidade, surgem também questões sérias relacionadas à dependência e ao vício em jogos.
+
+A ideia por trás do FerBet é resgatar esse clássico em um formato educativo e inofensivo: um Blackjack que roda diretamente em um kernel simples, onde o usuário não aposta dinheiro, não corre riscos, e joga apenas por curiosidade, aprendizado e diversão. O projeto une programação de baixo nível com um jogo culturalmente relevante, transformando um tema popular em uma experiência lúdica e tecnológica.
+
+---
 
 ## Autoria
 
