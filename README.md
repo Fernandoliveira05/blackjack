@@ -145,6 +145,16 @@ flowchart TD
 
 ---
 
+## Screenshots
+
+![Tela inicial do jogo](assets/telainicial.png)
+![Partida em andamento](assets/jogoiniciado.png)
+![Usuário perdendo](assets/perdeu.png)
+![Usuário ganhando](assets/ganhou.png)
+
+
+---
+
 
 ## Autoria
 
