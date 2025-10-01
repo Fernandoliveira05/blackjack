@@ -120,12 +120,12 @@ Na tela inicial são mostradas as regras e controles:
 
 ---
 
-## Fluxo do Jogo
+## Fluxo do Jogo 
 ```mermaid
 flowchart TD
-    A[Bootloader (kernel.asm)]
+    A[Bootloader - kernel.asm]
     B[Configura stack e entra em modo protegido]
-    C[kmain (kernel.c)]
+    C[kmain - kernel.c]
     D[Exibe tela inicial]
     E[Jogo Blackjack]
     F[Adiciona carta]
