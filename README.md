@@ -163,6 +163,8 @@ A ideia por trás do FerBet é resgatar esse clássico em um formato educativo e
 
 ---
 
+![LilFerSaxofone](assets/saxofonefer.gif)
+
 ## Autoria
 
 Projeto desenvolvido como estudo de baixo nível e sistemas operacionais:
